@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2031A5D-9336-4834-B221-67003A6A30DF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FirstPracticeSession</RootNamespace>
+    <AssemblyName>FirstPracticeSession</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LeetCode\AddBinary.cs" />
+    <Compile Include="LeetCode\AddDigits.cs" />
+    <Compile Include="LeetCode\AddStrings.cs" />
+    <Compile Include="LeetCode\ArithmeticSeries.cs" />
+    <Compile Include="LeetCode\ArrangingCoins.cs" />
+    <Compile Include="LeetCode\AssignCookies.cs" />
+    <Compile Include="LeetCode\BinaryTreePaths.cs" />
+    <Compile Include="LeetCode\BinaryTreeTraversalOrderII.cs" />
+    <Compile Include="LeetCode\ConstructRectangle.cs" />
+    <Compile Include="LeetCode\ContainsDuplicateII.cs" />
+    <Compile Include="LeetCode\CountAndSay.cs" />
+    <Compile Include="LeetCode\ExcelSheetColumnTitle.cs" />
+    <Compile Include="LeetCode\Imp\CountPrimes.cs" />
+    <Compile Include="LeetCode\FactorialTrailingZeroes.cs" />
+    <Compile Include="LeetCode\FindAllAnagramsInAString.cs" />
+    <Compile Include="LeetCode\ImplementMinStack.cs" />
+    <Compile Include="LeetCode\ImplementstrStrMethod.cs" />
+    <Compile Include="LeetCode\Imp\FindPermutation.cs" />
+    <Compile Include="LeetCode\GuessNumberHigherOrLower.cs" />
+    <Compile Include="LeetCode\ImplementQueueUsingStacks.cs" />
+    <Compile Include="LeetCode\ImplementStackUsingQueues.cs" />
+    <Compile Include="LeetCode\Imp\BalancedTree.cs" />
+    <Compile Include="LeetCode\Imp\HouseRobber.cs" />
+    <Compile Include="LeetCode\Imp\BestTimeToBuyStocks.cs" />
+    <Compile Include="LeetCode\BinaryWatch.cs" />
+    <Compile Include="LeetCode\Imp\Boomerangs.cs" />
+    <Compile Include="LeetCode\Imp\ClimbingStairs.cs" />
+    <Compile Include="LeetCode\DeleteNodeInALinkedList.cs" />
+    <Compile Include="LeetCode\ExcelSheetColumnNumber.cs" />
+    <Compile Include="LeetCode\FindTheDifference.cs" />
+    <Compile Include="LeetCode\FirstUniqueCharInString.cs" />
+    <Compile Include="LeetCode\FizzBizz.cs" />
+    <Compile Include="LeetCode\FlattenNestedListIterator.cs" />
+    <Compile Include="LeetCode\HappyNumber.cs" />
+    <Compile Include="LeetCode\Imp\Impossible\IncreasingSubsequences.cs" />
+    <Compile Include="LeetCode\Imp\LowestCommonAncestorInBinaryTree.cs" />
+    <Compile Include="LeetCode\Imp\PalindromeLinkedList.cs" />
+    <Compile Include="LeetCode\Imp\PathSum.cs" />
+    <Compile Include="LeetCode\Imp\Impossible\RectangleArea.cs" />
+    <Compile Include="LeetCode\InterectionOfTwoArrays.cs" />
+    <Compile Include="LeetCode\InvertBinaryTree.cs" />
+    <Compile Include="LeetCode\IslandPerimeter.cs" />
+    <Compile Include="LeetCode\IsomorphicStrings.cs" />
+    <Compile Include="LeetCode\LengthOfLastWord.cs" />
+    <Compile Include="LeetCode\LinkedListCycle.cs" />
+    <Compile Include="LeetCode\LongestCommonPrefix.cs" />
+    <Compile Include="LeetCode\LongestPalindrome.cs" />
+    <Compile Include="LeetCode\Imp\LowestCommonAncestorInBST.cs" />
+    <Compile Include="LeetCode\Imp\MinDepthOfBinaryTree.cs" />
+    <Compile Include="LeetCode\MaxDepthOfBinaryTree.cs" />
+    <Compile Include="LeetCode\Imp\MergeTwoSortedLists.cs" />
+    <Compile Include="LeetCode\Medium\4SumII.cs" />
+    <Compile Include="LeetCode\Medium\AddTwoNumbersII.cs" />
+    <Compile Include="LeetCode\Medium\BattleShipsInBoard.cs" />
+    <Compile Include="LeetCode\Medium\BinaryTreeInOrderTraversal.cs" />
+    <Compile Include="LeetCode\Medium\BinaryTreePreorderTraversal.cs" />
+    <Compile Include="LeetCode\Medium\CountingBits.cs" />
+    <Compile Include="LeetCode\Medium\CountNumbersWithUniqueDigits.cs" />
+    <Compile Include="LeetCode\Medium\FindAllDuplicatesInAnArray.cs" />
+    <Compile Include="LeetCode\Medium\IntegerBreak.cs" />
+    <Compile Include="LeetCode\Medium\IsSubsequence.cs" />
+    <Compile Include="LeetCode\Medium\KthSmallestElementInMatrix.cs" />
+    <Compile Include="LeetCode\Medium\LinkedListRandomNote.cs" />
+    <Compile Include="LeetCode\Medium\MagicalString.cs" />
+    <Compile Include="LeetCode\Imp\Impossible\MaximumXOROfTwoNumbersInArray.cs" />
+    <Compile Include="LeetCode\Medium\NextGreaterElementII.cs" />
+    <Compile Include="LeetCode\Medium\ProductOfArrayExceptSelf.cs" />
+    <Compile Include="LeetCode\Medium\ShuffleAnArray.cs" />
+    <Compile Include="LeetCode\Medium\SingleNumberIII.cs" />
+    <Compile Include="LeetCode\Medium\SortCharactersByFrequency.cs" />
+    <Compile Include="LeetCode\Medium\TargetSum.cs" />
+    <Compile Include="LeetCode\Medium\TopKFrequentElements.cs" />
+    <Compile Include="LeetCode\Medium\TotalHammingDistance.cs" />
+    <Compile Include="LeetCode\MergeSortedArray.cs" />
+    <Compile Include="LeetCode\Medium\MinimumMovesToEqualArrayElementsII.cs" />
+    <Compile Include="LeetCode\MinMoviesToEqualArrayElements.cs" />
+    <Compile Include="LeetCode\Models\ListNode.cs" />
+    <Compile Include="LeetCode\Models\TreeNode.cs" />
+    <Compile Include="LeetCode\MoveZeros.cs" />
+    <Compile Include="LeetCode\NimGame.cs" />
+    <Compile Include="LeetCode\Imp\Impossible\NthDigit.cs" />
+    <Compile Include="LeetCode\NumberOf1Bits.cs" />
+    <Compile Include="LeetCode\NumberOfSegmentsInString.cs" />
+    <Compile Include="LeetCode\NumberToHexedecimal.cs" />
+    <Compile Include="LeetCode\Palindrome.cs" />
+    <Compile Include="LeetCode\PascalTriangle.cs" />
+    <Compile Include="LeetCode\PascalTriangleII.cs" />
+    <Compile Include="LeetCode\Imp\PathSumI.cs" />
+    <Compile Include="LeetCode\PlusOne.cs" />
+    <Compile Include="LeetCode\PowerOFThree.cs" />
+    <Compile Include="LeetCode\IntersectionOfTwoLinkedLists.cs" />
+    <Compile Include="LeetCode\QueueReconstructionByHeight.cs" />
+    <Compile Include="LeetCode\RangeSumQueryImmutable.cs" />
+    <Compile Include="LeetCode\RansomNote.cs" />
+    <Compile Include="LeetCode\RemoveDuplicatesFromLinkedList.cs" />
+    <Compile Include="LeetCode\RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="LeetCode\RemoveElement.cs" />
+    <Compile Include="LeetCode\RemoveLinkedListElements.cs" />
+    <Compile Include="LeetCode\RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="LeetCode\RepeatedSubstringPattern.cs" />
+    <Compile Include="LeetCode\ReverseBits.cs" />
+    <Compile Include="LeetCode\ReverseLinkedList.cs" />
+    <Compile Include="LeetCode\ReverseString.cs" />
+    <Compile Include="LeetCode\ReverseVowelsInString.cs" />
+    <Compile Include="LeetCode\RomanToInteger.cs" />
+    <Compile Include="LeetCode\Imp\Impossible\RotateFunction.cs" />
+    <Compile Include="LeetCode\SameTree.cs" />
+    <Compile Include="LeetCode\SingleNumber.cs" />
+    <Compile Include="LeetCode\SumOfLeftLeaves.cs" />
+    <Compile Include="LeetCode\SumOfTwoIntegers.cs" />
+    <Compile Include="LeetCode\SwapNodesInPair.cs" />
+    <Compile Include="LeetCode\SymmetricTree.cs" />
+    <Compile Include="LeetCode\Imp\Impossible\TargetSum.cs" />
+    <Compile Include="LeetCode\ThirdMaximumNumber.cs" />
+    <Compile Include="LeetCode\TwoSum.cs" />
+    <Compile Include="LeetCode\UglyNumber.cs" />
+    <Compile Include="LeetCode\ValidAnagram.cs" />
+    <Compile Include="LeetCode\ValidPalindrome.cs" />
+    <Compile Include="LeetCode\ValidParanthesis.cs" />
+    <Compile Include="LeetCode\ValidSudoku.cs" />
+    <Compile Include="LeetCode\WordPattern.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
